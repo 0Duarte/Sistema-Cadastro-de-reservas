@@ -44,6 +44,9 @@ Inicie o servidor
 npm npm run server
 ```
 **3 - Execute a aplicação no navegador acessando o Live Server**
+**- Utilize o usuário "usuarioteste@hotmail.com" senha "123Abc###"**
+
+
 
 ## ScreenShots
 
