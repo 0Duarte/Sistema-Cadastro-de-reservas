@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de reservas</title>
+    <link rel="stylesheet" href="./styles/lista.css">
+    <link rel="icon" href="./styles/img/calendario.png">
+</head>
+<body> 
+    <h1>Gerenciamento de reservas</h1>
+    <div class="action-buttons"> 
+        <button id="logout">Logout</button>
+        <button id="cadastro">Cadastro</button>
+    </div>
+    
+    <div class="reservas-container">
+        <table class="tabela-reservas">
+            <thead>
+                <tr>
+                    <th>N. Quarto</th>
+                    <th>Cliente</th>
+                    <th class="linhaCpf">CPF</th>
+                    <th>Período</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="corpo-tabela">
+            </tbody>
+        </table>
+    </div>
+    <script src="scripts/home.js" type="module"></script>
+</body>
+</html>

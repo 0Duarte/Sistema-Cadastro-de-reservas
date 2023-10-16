@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles/index.css">
+    <link rel="icon" href="./styles/img/calendario.png">
+
+</head>
+
+<body>
+
+    <div id="container">
+
+        <form>
+            <h1>Admin Login</h1>
+
+            <div class="inputs-content">
+                <label for="email" class="label">Email</label>
+                <input type="email" name="email" id="email" class="input">
+
+                <span id="inputUm">Este campo é obrigatório.</span>
+                <label for="senha" class="label">Password</label>
+
+                <input type="password" name="senha" id="senha" class="input">
+                <span id="inputDois">Este campo é obrigatório.</span>
+            </div>
+            <div>
+                <input class="button" type="submit" id="button" value="Login">
+                <input class="button" type="button" id="cadastrar" value="Cadastrar">
+            </div>
+        </form>
+
+    </div>
+
+    <script src="scripts/login.js" type="module"></script>
+</body>
+
+</html>

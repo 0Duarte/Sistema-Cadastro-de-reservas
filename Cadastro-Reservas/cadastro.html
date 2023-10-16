@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de reservas</title>
+    <link rel="stylesheet" href="./styles/cadastro.css">
+    <link rel="icon" href="./styles/img/calendario.png">
+</head>
+
+<body>
+    <div id="container">
+
+        <form id="form-register">
+            <h1 id="title">Novo cadastro</h1>
+
+            <div id="div-input-name">
+                <label for="input-name">
+                    <span>Nome:</span>
+                    <input id="input-name" type="text">
+                </label>
+            </div>
+
+            <div id="div-input-cpf">
+                <label for="cpf">
+                    <span>Cpf::</span>
+                    <input id="input-cpf" type="number">
+                </label>
+            </div>
+
+            <div id="div-input-date-in">
+                <label for="input-date-in">
+                    <span>Entrada:</span>
+                    <input id="input-date-in" type="date">
+                </label>
+            </div>
+
+            <div id="id=div-input-date-out">
+                <label for="input-date-out">
+                    <span>Saída:</span>
+                    <input id="input-date-out" type="date">
+                </label>
+            </div>
+
+            <div id="div-input-room-number">
+                <label for="room-number">
+                    <span>Número do quarto:</span>
+                    <select name="room-number" id="room-number">
+                        <option selected disabled></option>
+                        <option value="204">Quarto 204</option>
+                        <option value="107">Quarto 107</option>
+                        <option value="88">Quarto 88</option>
+                        <option value="24">Quarto 24</option>
+                    </select>
+                </label>
+            </div>
+            <button type="submit" class="button" id="button-register">Cadastrar</button>
+            <button type="button" class="button" id="button-back">Voltar</button>
+            <p id="ok"></p>
+        </form>
+    </div>
+    <script src="./scripts/cadastro.js" type="module"></script>
+</body>
+
+</html>
